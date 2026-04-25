@@ -1,0 +1,412 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Movie Website | Amed Calderin Gilbert</title>
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link ref="https://fonts.googleapis.com/css2?family=Asimovian&family=Big+Shoulders:opsz,wght@10..72,100..900&family=League+Gothic&family=Pirata+One&family=Racing+Sans+One&display=swap" rel="stylesheet">
+	<style>
+		
+		body{
+    margin: 800;
+    padding: 100 auto;
+    background-image: url("images/Ninten-World-Wallpaper Blue.jpg");
+			background-size: 25%, cover;
+			background-attachment:fixed;
+					}
+		wrapper{
+			width: 600px;
+		    display: block;
+			margin: 20px auto;
+			background-color: rgba(255, 255, 255, .90);
+			background-attachment: scroll;
+			background-position: center;
+			background-repeat:repeat;
+			border-radius: 24px;
+		}
+		
+		header{
+			border-radius: 24px 24px 0px 0px;
+		}
+			
+		h3{
+		  margin-top: -24px;
+		  margin-bottom: 12px;
+		  vertical-align: middle;
+		  text-align: center;
+		  background-color: #00cee6;
+		  color: white;
+		  font-weight: 400;
+		  font-size: 24px;
+		  font-family:"League Gothic", "sans-serif"
+			}
+		
+		h1{
+          font-family:"League Gothic", sans-serif;
+          font-weight: 800;
+          font-style: normal;
+          font-size: 54px; 
+          align-content: center;
+          display:block;
+		  vertical-align: middle;
+		  text-align: center;
+		  color: white;
+		  margin-top: inherit;
+		  padding-bottom: 12px;
+  
+           }
+		
+		a{
+			margin: 10px;
+			padding: 0px 10px 0px 10px;
+			border: 0px;
+			font-size: 14px;
+			text-decoration: none;
+			
+		}
+		
+		div{
+			align-items: center;
+			display: inline-block;
+		}
+		
+		
+		h2{
+			font-family:"League Gothic", sans-serif;
+			font-size:24px;
+			font-weight: 200;
+			text-align: center;
+			display: block;
+			margin-top: 512px;
+		    marging-bottom: 24px;
+			color: white;
+			background-color: rgba(230, 0, 18, 0.85 )
+		}
+		
+		h2:hover{
+			color: #e60012;
+			background-color: rgba(255, 255, 255, 0.75 );
+		}
+		
+		.logo{
+		    align-content: center;
+			display: block;
+			vertical-align: middle;
+			margin-left: 175px;
+			margin-top: 24px;
+			padding-top: 24px;
+			padding-bottom: 0px;
+		
+			}
+		
+		.Navigat{
+			
+			display: flex;
+			flex-direction: column;
+			flex-wrap:nowrap;
+			align-content: center;
+			justify-content: center;
+			padding: 10px;
+			align-content: center;
+			
+		}
+		
+		.Navigat a{
+			font-family: "League Gothic", sans-serif;
+			font-weight: 600;
+			font-size: 12px;
+			font-style: normal;
+			background-color: #00cee6;
+			padding: 4px;
+			border-radius: 10px 10px;
+			color: white;
+			margin: 10PX;
+			display: block;
+			width: 25%;
+			text-align: center;
+			align-content: center;
+			
+		}
+		
+		.Navigat a:hover{
+			background-color: #e60012;
+			color: #00cee6;
+		}
+		
+		.SUPERMARIO, .MARIOGALAXY, .MARIO1995, .GALLERY{
+			margin: 100px auto;
+			width: 95%;
+			box-sizing: border-box;
+		}
+		
+		.FotoSMarioG,.FotoSMarioB,.FotoSMario95,.FotoSMORE{
+		background-repeat: no-repeat;
+		background-position: center;
+			width: 500px;
+			height: 500px;
+			display: block;
+			background-size: cover;
+			margin: auto;
+			margin: 10px auto;
+			border-radius: 20px;
+			border: 14px;
+			border-style: solid;
+			border-color: #e60012;
+			transition:1s;
+		
+		}
+		
+		.FotoSMarioG{
+			background-image:url("../gra1750p7-amedcalderin-2026-draft/images/FotoSMarioG.jpg");
+		}
+		
+		.FotoSMarioG:hover{
+			background-image: url("images/Synopsis Galaxy.jpg");
+			background-position: top;
+		}
+		
+		.FotoSMarioB{
+			background-image:url("../gra1750p7-amedcalderin-2026-draft/images/FotoSMarioB.jpg");
+		}
+		
+		.FotoSMarioB:hover{
+			background-image: url("images/Synopsis Mario.jpg");
+			background-position: top;
+		}
+		
+		.FotoSMario95{
+			background-image:url("../gra1750p7-amedcalderin-2026-draft/images/FotoSMario95.jpg");
+		}
+		
+		.FotoSMario95 a:link, .FotoSMario95 a:visited {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+		font-size:24px;
+		font-family:"League Gothic", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+			display: block;
+			margin-top: 512px;
+		    marging-bottom: 24px;
+			background-color: rgba(230, 0, 18, 0.85 )
+        }
+
+       .FotoSMario95 a:hover, .FotoSMario95 a:active {
+         color: #e60012;
+			background-color: rgba(255, 255, 255, 0.75 );
+        }
+		
+		.FotoSMario95:hover{
+			background-image: url("images/Synopsis Mario95.jpg");
+			background-position: top;
+		}
+				
+		.FotoSMORE{
+			background-image:url("../gra1750p7-amedcalderin-2026-draft/images/FotoSMORE.png");
+		}
+		
+		.FotoSMORE:hover{
+			background-image: url("images/Bowser.png");
+			background-position: top;
+		}
+		
+		.Mover{
+			margin: 25px;
+			padding-left: 0px;
+			border: 0px;
+			padding-top: 35px;
+			font-size: 12px;
+			height: 60px;
+			width: 60px;
+			
+		}
+		
+		.MoverB:hover{
+			background-image: url("images/Boxel.jpg");
+			transform: scaleZ(55%);
+		}
+		
+		.foot, .foot2{
+			padding: 5px;
+			font-size: 12px;
+			padding-left: 20px; 
+		    padding-right: 20px;
+			marging: 20px;
+			background-color: #00cee6;
+		}
+		
+		.foot2{
+			padding-bottom: 10px;
+			background-color: #e60012;
+			color: white;
+		
+		}
+		
+		.button1{
+			cursor: pointer;
+		}
+		
+		banner{
+			display:block;
+			height: 201px;
+			background-image: url("images/Nintendo-banner.png");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-color: black;
+			background-position: center;
+			transition:2s;
+			
+		}
+		
+		banner:hover{
+			background-image: url("images/FoxMarioKong.jpg");
+		}
+		
+		a, section, div:-webkit-any-link {
+            cursor:pointer;
+}
+		
+		@media(min-width:1000px){
+			
+			wrapper{
+				width: 1200px;
+			}	
+			
+			.Navigat{
+			flex-direction: row;
+				
+			}
+			
+			.Navigat a{
+			font-size: 16px;
+			font-style: normal;
+			display: inline-block;
+				
+			}	
+			
+			.SUPERMARIO, .MARIOGALAXY, .MARIO1995, .GALLERY{
+			display: inline-block;
+			width: 45%;
+			margin: 25px;
+			
+		    }
+			.Nintendo-banner{
+			width:1200px;
+			}
+			
+			.FotoSMarioB{
+			margin-left: 20px;	
+				
+			}
+			
+			.FotoSMario95{
+			margin-left: 10px;	
+				
+			}
+			
+			.FotoSMORE{
+			margin-left: 22px
+			}
+			
+			.logo{
+			margin-left: 50px;
+			align-content:center;
+			display:inline;
+			vertical-align: middle;
+			margin-left: 112px;
+			margin-top: 24px;
+			padding-top: 24px;
+			padding-bottom: 42px;
+			}
+			
+			.Mover{
+			margin: 36px;
+			padding-top: 0px;
+			}
+			
+			.MoverB:hover{
+				height:40px;
+				width: 40px;
+			}
+			
+			.FotoSMario95 a:link, .FotoSMario95 a:visited {
+       		font-size:24px;
+			}
+			
+			h1{
+			align-content:center; 
+			font-size: 72px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-top: 24px;
+			padding-top: 24px;
+			padding-bottom: 0px;
+			padding-left: 24px;
+							
+			}
+			
+			h2{
+			font-size: 24px;
+			}
+			
+			banner{
+				height: 300px;
+			    width: contain;
+			}
+		}
+</style>
+</head>
+<body>
+	<a name="Top"></a>
+	<wrapper>
+	<header style="background-color: #e60012" class="stroke">
+		
+		<img src="images/Nintendo-logo.png" width="240" height="82" class="logo"/>
+		
+		 <h1 class="stroke"><strong>MAGiC UNiVERSE</strong></h1>
+	</header>
+	<main>
+		<h3 class="quote">A World of Magic Endless Adventures </h3>
+		<banner>
+		</banner>		
+		<section>
+		<div class="Navigat">
+			<a href="#">HOME</a>
+	        <a href="https://www.illumination.com/movie/1238/">SYNOPSIS</a>
+			<a href="https://www.nintendo.com/us/store/characters/?srsltid=AfmBOor0Fo-iXlGoBNRNJ_MzxqtkknS4r-6X_lL8JjR1De9-5mwBLY7q">GALLERY</a>
+			<a href="https://www.illumination.com/">TRAILERS</a>
+	        <a href="#">About US</a>
+			</div>
+		</section>
+		
+<section class="MARIOGALAXY">
+<div class="FotoSMarioG"><h2>The Super MARIO GALAXY Movie</h2></div>
+		</section>
+		
+<section class="SUPERMARIO">
+<div class="FotoSMarioB"><h2>The Super MARIO BROS Movie</h2></div>
+		</section>
+	
+<section class="MARIO1995">
+<div class="FotoSMario95"><a href="https://www.google.com/search?q=trailer+of+Mario+Brothers+1995+movie&rlz=1C1RXQR_enUS1167US1167&oq=trailer+of+Mario+Brothers+1995+movie&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRiPAtIBCTEwNDUyajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:b7284695,vid:GuXwMHF9y1Y,st:0" target="_blank">Super MARIO BROS (1995) Trailer</a></div>
+        </section>
+		
+<section class="GALLERY">
+<div class="FotoSMORE"><h2> Watch &amp; Enjoy The GALLERY</h2></div>
+        </section>
+	
+<a class="Mover" href="#Top"><img class="MoverB" src="images/Box.png" width="60" height="60" alt="question box, Back-to-Top"/></a>
+	  
+	
+		</main>
+		
+		<footer>
+		<p class="foot"> &copy; 2026, Amed Calderin</p>
+<p class="foot2">This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+		</footer>
+	</wrapper>
+</body>
+</html>
